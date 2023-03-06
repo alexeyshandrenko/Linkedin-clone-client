@@ -1,0 +1,17 @@
+.option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  &:hover {
+    border-radius: 25px;
+    background-color: #ebebeb;
+  }
+  &__icon {
+    margin-right: 5px;
+  }
+  > h3 {
+    font-size: 14px;
+    color: #808080;
+  }
+}
